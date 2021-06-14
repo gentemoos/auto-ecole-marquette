@@ -1,0 +1,313 @@
+/* code de la route */
+.row .col-md h4{
+    margin-bottom: 3%;
+}
+
+.row .col-md ul {
+    margin-bottom: 6%;
+}
+
+#code_pres {
+    text-align: center;
+    font-size: larger;
+    max-width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5%;
+    position: relative;
+    z-index:1;
+}
+
+#code_pres #logo_code{
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: url("code.png") center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    opacity: .15;
+    width: 100%;
+    height: 100%;
+}
+
+#code_resume h4{
+    text-align: center;
+    color: #0F75BC;
+}
+
+#code_resume ul li{
+    margin-left: 30%;
+    margin-bottom: 2%;
+    font-size: large;
+}
+
+#code_resume{
+    margin-bottom: 10%;
+}
+
+#code_resume h5{
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 5%;    
+}
+
+#code_resume h5 a{
+    text-decoration: underline;
+}
+
+.infos_contact{
+    text-align: center;
+    margin-bottom: 5%;
+}
+
+.infos_contact i{
+    font-size: 55px;
+    color: #c4161c;
+}
+
+.infos_contact h4{
+    text-align: center;
+    color: black;
+    font-size: 30px;
+}
+
+.infos_contact p{
+    font-size: large;
+    text-align: center;
+}
+
+/* conduite AC */
+
+#conduite_ac_pres{
+    text-align: center;
+    font-size: larger;
+    max-width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5%;
+    position: relative;
+    z-index:1;
+}
+
+#conduite_ac_logo{
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: url("conduite_accompagnee.png") center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    opacity: .15;
+    width: 100%;
+    height: 100%;
+}
+
+#resume_conduite_ac h4{
+    text-align: center;
+    color: #0F75BC;
+}
+
+#resume_conduite_ac ul li{
+    margin-left: 35%;
+    margin-bottom: 2%;
+    font-size: large;
+   
+}
+
+#resume_conduite_ac ul{
+    max-width: 90%;
+}
+
+#conduite_ac_pres p{
+    margin-bottom: 5%;
+}
+
+#resume_conduite_ac ul li{
+    margin-left: 30%;
+    margin-bottom: 2%;
+    font-size: large;
+}
+/* conduite supervisé */
+
+#conduite_super_pres{
+    text-align: center;
+    font-size: larger;
+    max-width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5%;
+    position: relative;
+    z-index:1;
+}
+
+#conduite_sup_logo{
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: url("conduite_super.png") center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    opacity: .15;
+    width: 100%;
+    height: 100%;
+}
+
+#conduite_sup_resume ul{
+ margin-bottom: 10%;
+}
+
+#conduite_sup_resume ul li{
+    margin-left: 30%;
+    margin-bottom: 2%;
+    font-size: large;
+}
+
+#conduite_sup_resume h4{
+    text-align: center;
+    color: #0F75BC;
+}
+
+#conduite_sup_resume ul{
+    max-width: 90%;
+}
+
+/* permis b */
+
+#permis_b_pres{
+    text-align: center;
+    font-size: larger;
+    max-width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5%;
+    position: relative;
+    z-index:1;
+}
+
+#permis_b_logo{
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: url("permis_b.png") center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    opacity: .15;
+    width: 100%;
+    height: 100%;
+}
+
+#permis_b_resume ul{
+    margin-bottom: 10%;
+   }
+   
+   #permis_b_resume ul li{
+       margin-left: 30%;
+       margin-bottom: 2%;
+       font-size: large;
+   }
+   
+   #permis_b_resume h4{
+       text-align: center;
+       color: #0F75BC;
+   }
+
+   #permis_b_resume ul{
+    max-width: 90%;
+}
+
+/* documents */
+
+#document ul{
+    list-style: none;
+    border: #0F75BC solid 2px;
+    font-size: larger;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-bottom: 10%;
+    margin-top: 5%;
+}
+
+
+/* media queries telephone */
+@media screen and (max-width: 768px){
+
+    #document ul{
+        font-size: medium;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    #code_pres{
+        max-width: 85%;
+    }
+
+    #code_resume ul li{
+        margin-left: 0px;
+    }
+
+    .row{
+        max-width: 100%;
+    }
+
+    #conduite_ac_pres{
+        max-width: 85%;
+    }
+
+    #conduite_ac_pres p{
+        margin-bottom: 15%;
+    }
+
+    #conduite_sup_resume ul li{
+        margin-left: 0px;
+    }
+
+   #resume_conduite_ac ul li{
+       margin-left: 0px;
+   }
+
+   .row .col-md h4{
+       margin-bottom: 10%;
+       margin-top: 5%;
+   }
+
+   .bande .titre h2{
+      text-decoration: underline;
+   }
+
+   #conduite_super_pres{
+    max-width: 85%;
+   }
+
+   #permis_b_resume{
+       margin-left:0px;
+   }
+
+   #permis_b_resume ul{
+       max-width:100% ;
+       
+   }
+
+   #permis_b_resume .col-md{
+       padding-left: 0px;
+   }
+
+   #permis_b_resume ul li{
+       margin-left: 0px;
+       padding-left: 0px;
+   }
+
+   #permis_b_pres{
+       max-width: 85%;
+   }
+}

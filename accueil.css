@@ -1,0 +1,230 @@
+
+/* info début */
+
+#text_pres{
+    height:200px;
+    text-align: center;
+    font-size: larger;
+    
+}
+
+/* nos engagements */
+
+#engagement svg{
+    color: #0F75BC;
+}
+
+#engagement h4{
+    text-decoration: underline;
+}
+
+#engagement .col-md{
+    text-align: center;
+}
+
+.col-md svg{
+    margin-bottom: 5%;
+}
+
+#engage{
+    
+    margin-bottom: 10%;
+}
+
+#engage .col-md{
+    transform: scale(1.0);
+    transition: 0.5s;
+}
+
+#engage .col-md:hover{
+    transform: scale(0.9);
+}
+
+#grille{
+    margin-top: 5%;
+    text-align:center;
+}
+
+
+#grille span{
+    margin: 10%;
+    text-align: center;
+}
+
+/* Carrousel */
+
+#carouselDarkVariant{
+    margin-bottom: 5%;
+}
+
+/* Nos formations */
+
+
+#liste_carte .col-md-3{
+    height: 230px;
+    width: 250px;
+    text-align: center;
+    border: #0F75BC solid 2px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10%;
+    margin-top: 5%;
+    border-radius: 0% 15% 15% 15%;
+}
+
+#liste_carte .col-md-3 p{
+    
+    margin-top: 25%; /* poussé de la moitié de hauteur de viewport */
+    transform: translateY(-50%);
+}
+
+#liste_carte .col-md-3 button{
+    position: absolute;
+    bottom: 5%;
+    right: 20%;
+}
+
+#liste_carte .col-md-3 h5{
+    margin-top: 5%;
+}
+
+#conduite_accompagne{
+    background-image: url("permis-AAC.png")  ;
+    background-repeat: no-repeat;
+    background-position: bottom 35% left 5%;
+    background-size: 30% 30%; 
+    background-color:rgba(245, 176, 62, 0.65);
+}
+
+#permis_b{
+    background-image: url("permis_b.png")  ;
+    background-repeat: no-repeat;
+    background-position: bottom 35% left 5%;
+    background-size: 30% 30%; 
+    background-color:rgba(52, 180, 93, 0.65);
+}
+
+#conduite_super{
+    background-image: url("conduite_super.png")  ;
+    background-repeat: no-repeat;
+    background-position: bottom 35% left 5%;
+    background-size: 30% 30%; 
+    background-color:rgba(209, 250, 255, 0.65);
+}
+
+#code{
+    background-image: url("code.png")  ;
+    background-repeat: no-repeat;
+    background-position: bottom 35% left 5%;
+    background-size: 30% 30%; 
+    background-color:rgba(255, 90, 95, 0.65);
+}
+
+
+
+/* infos */
+
+#tel{
+    text-align: center;
+}
+
+#tel a i{
+    text-align: center;
+    font-size: 55px;
+    color: #c4161c;
+}
+
+#tel a p{
+    text-align: center;
+    color: black;
+    font-size: 30px;
+    
+}
+
+.infos_contact{
+    text-align: center;
+}
+
+.infos_contact i{
+    font-size: 55px;
+    color: #c4161c;
+}
+
+.infos_contact h4{
+    text-align: center;
+    color: black;
+    font-size: 30px;
+}
+
+.infos_contact p{
+    
+    text-align: center;
+}
+
+#maps{
+    height:40% ;
+    width: 100%;
+}
+
+#contact{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+#contact h3{
+    text-align: center;
+}
+
+#local{
+    text-align: center;
+}
+
+#maps iframe{
+    padding: 4%;
+}
+
+#brochure{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    text-align: center;
+}
+
+/* footer */
+
+footer img{
+    margin-top:20%;
+}
+
+
+@media screen and (max-width: 768px){
+
+
+    #grille_droite{
+        border-left: none;
+    }
+
+    #grille_gauche{
+        border-right: none;
+    }
+
+    #text_pres{
+        margin-bottom: 40%;
+    }
+
+    #grille span{
+        margin:0px;
+    }
+ 
+    #liste_carte .col-md-3 button{
+        position: unset;
+        margin-top: 20%;
+    }
+
+    #maps iframe{
+        height: 300px;
+    }
+}
+
+

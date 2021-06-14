@@ -1,0 +1,39 @@
+h4{
+    color: #0F75BC;
+    margin-bottom: 2%;
+}
+
+#general{
+    padding-left: 10%;
+}
+
+.section{
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+p{
+    font-size: larger;
+}
+
+ul li{
+    font-size: larger;
+}
+
+@media screen and (max-width: 768px){
+
+ul li{
+    font-size: large;
+
+}
+
+p{
+    font-size: large;
+}
+
+#general{
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+}
